@@ -1,0 +1,29 @@
+{
+    "expo": {
+      "name": "Smalltis",
+      "slug": "smalltis-app",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/icon.png",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "updates": {
+        "fallbackToCacheTimeout": 0
+      },
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "ios": {
+        "bundleIdentifier": "com.comp.app"
+      },
+      "web": {
+        "favicon": "./assets/favicon.png"
+      },
+      "android": {
+        "package": "smalltis.com.app"
+      }
+    }
+  }
